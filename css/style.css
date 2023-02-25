@@ -198,6 +198,12 @@ img {
     font-weight: 700;
     font-size: 6.4rem;
 }
+.running
+{
+    text-transform: uppercase;
+        font-weight: 700;
+        font-size: 3.4rem;
+}
 
 .hero-para {
     margin-top: 1.5rem;

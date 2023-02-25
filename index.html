@@ -43,9 +43,12 @@
         <section class="section-hero section">
             <div class="container gird grid-two-column">
                 <div class="hero-top-data">
-                    <p class="hero-top-data">this is me</p>
+                    <p class="hero-top-data" style="font-size: 2.5rem;">this is me</p>
                     <h1 class="hero-heading">Prabhat saini</h1>
-                    <h3>Objective:</h3>
+                    <div class="running" style="text-transform: lowercase; color:var(--black)">
+                     i am <span class="role running " style="color:var(--helper)"></span>
+                    </div> <br>
+                    <h3 style="font-size: 2.5rem;">Objective:</h3>
                     <p class="hero-para">  To get an opportunity where I can make the best of my potential and contribute to the organization’s growth
 </p>
                     <!-- button -->
@@ -608,9 +611,26 @@ Applied Augmented Reality  <br>
     <!-- ***********************************************************
                   javascript
          *******************************************************            -->
+         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+      <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "AR Developer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
 
 </body>
 

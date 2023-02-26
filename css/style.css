@@ -919,6 +919,8 @@ figure img {
     background-color: transparent;
     cursor: pointer;
     border: none;
+    
+
     /* z-index: 999; */
 }
 
@@ -946,16 +948,17 @@ figure img {
     }
 
     .mobile-nav-icon {
-        width: 5rem;
-        height: 5rem;
+        width: 4rem;
+        height: 4rem;
         color: var(--black);
     }
 
     .mobile-navbaraaaa-btn {
         display: block;
         z-index: 999;
-        border: 3px solid var(--black);
+        /* border: 3px solid var(--black); */
         color: #212529;
+
     }
 
     header img {

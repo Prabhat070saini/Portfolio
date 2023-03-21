@@ -198,11 +198,11 @@ img {
     font-weight: 700;
     font-size: 6.4rem;
 }
-.running
-{
+
+.running {
     text-transform: uppercase;
-        font-weight: 700;
-        font-size: 3.4rem;
+    font-weight: 700;
+    font-size: 3.4rem;
 }
 
 .hero-para {
@@ -423,6 +423,7 @@ img {
     transform: translateY(0);
     opacity: 0.7;
     cursor: pointer;
+    border-radius: 7px;
 }
 
 /* .p-btn:hover{
@@ -919,7 +920,7 @@ figure img {
     background-color: transparent;
     cursor: pointer;
     border: none;
-    
+
 
     /* z-index: 999; */
 }
@@ -1258,7 +1259,8 @@ figure img {
     .section-footer .f-address {
         grid-column: 1/-1;
     }
-    .section-text .container{
+
+    .section-text .container {
         margin: 0 .2rem;
     }
 }

@@ -91,8 +91,8 @@ const headerElm = document.querySelector(".header");
 mobile_nav.addEventListener("click", () => {
   headerElm.classList.toggle("active");
 });
-console.log(10);
-console.log("underif");
+// console.log(10);
+// console.log("underif");
 
 
 // apply css by js change swiper div 2 to 1
@@ -101,7 +101,7 @@ const myjsmedia = (widthsize) => {
     new Swiper(".mySwiper", {
       slidesPerView: 1,
       spaceBetween: 30,
-      
+
     });
   }
   else {
@@ -115,3 +115,12 @@ const myjsmedia = (widthsize) => {
 const widthsize = window.matchMedia("(max-width:780px )");
 myjsmedia(widthsize);
 widthsize.addEventListener("change", myjsmedia);
+let myVideo = document.querySelector("#Video")
+let check = 0;
+let myfuntion = () => {
+  if (myVideo.paused && check === 0) {
+    myVideo.play();
+    check++;
+    // ppbutton.innerHTML = "Pause";
+  }
+}
